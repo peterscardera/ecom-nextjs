@@ -1,14 +1,22 @@
-![Advanced React & GraphQL](https://advancedreact.com/images/ARG/arg-facebook-share.png)
 
-# Advanced React & GraphQL
+# React (for building the interface) FRONT END
+-next.js for server side rendering and routing
 
-These are the starter files and stepped solutions for the [Advanced React & GraphQL](https://AdvancedReact.com) course by [Wes Bos](https://WesBos.com/).
+# Apollo Client (data mgmt) FRONT END
+-Perfoming GraphQl mutation and fethcing queries
+-managing local state
 
-## Getting Help
+# GraphQl yoga (express server) BACK END
+-implementinh query and mutaion resolvers
+-server side logic and permissions
 
-The best place to get help is in the #advanced-react slack room - there is a link in your course dashboard.
+# Prisma (graphql database interface) BACK END
 
-## FAQ
+-Provides a set of GraphQl CRUD api for Mysql or mongo DBs
+-schemas
 
-**Q:** Which Extensions for VS Code is Wes using?  
-**A:** All my extensions are listed on [my dotfiles repo](https://github.com/wesbos/dotfiles), but specifically this course uses [ESLint](https://github.com/Microsoft/vscode-eslint) and [Prettier](https://github.com/prettier/prettier-vscode).
+
+**React  uses Apollo client to query our graphQL yoga endpoint. On the server graphql yoga will connect to our prisma data and pull the data back and forth.
+
+
+These are the starter files [Advanced React & GraphQL](https://AdvancedReact.com) course by [Wes Bos](https://WesBos.com/).
